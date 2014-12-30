@@ -15,6 +15,6 @@ for PROCS in 1 2 3 4 5 6 7 8 9 10; do
 	for GOROUTINES in 1 2 3 4 8 16; do
 		GOMAXPROCS=${PROCS} ./cpuburn ${GOROUTINES} >> report.txt
 		# Give it time for all connections to close.
-		sleep 5
+		sleep 2
 	done
 done
