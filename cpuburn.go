@@ -34,7 +34,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Expected 'number of concurrent GET goroutines', got %q: %v", os.Args[1], err)
 	}
-	fmt.Println("Go version:", runtime.Version())
+	fmt.Println("# Go version:", runtime.Version())
 
 	http.HandleFunc("/", handler)
 	go func() {
