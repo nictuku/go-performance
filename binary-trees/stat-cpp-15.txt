@@ -1,0 +1,17 @@
+
+ Performance counter stats for './binarytrees.gpp-6.gpp_run 15':
+
+        548.515565      task-clock (msec)         #    0.975 CPUs utilized          
+               197      context-switches          #    0.359 K/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+             3,158      page-faults               #    0.006 M/sec                  
+       537,279,850      cycles                    #    0.980 GHz                     [50.94%]
+        52,092,313      stalled-cycles-frontend   #    9.70% frontend cycles idle    [51.41%]
+       192,691,647      stalled-cycles-backend    #   35.86% backend  cycles idle    [51.88%]
+       668,324,031      instructions              #    1.24  insns per cycle        
+                                                  #    0.29  stalled cycles per insn [49.93%]
+       112,502,354      branches                  #  205.103 M/sec                   [49.10%]
+         2,231,786      branch-misses             #    1.98% of all branches         [49.32%]
+
+       0.562789601 seconds time elapsed
+

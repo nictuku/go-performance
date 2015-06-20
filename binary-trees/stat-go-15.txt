@@ -1,0 +1,17 @@
+
+ Performance counter stats for './binary-trees 15':
+
+       2870.258825      task-clock (msec)         #    0.983 CPUs utilized          
+             3,204      context-switches          #    0.001 M/sec                  
+                 0      cpu-migrations            #    0.000 K/sec                  
+            11,798      page-faults               #    0.004 M/sec                  
+     5,753,582,355      cycles                    #    2.005 GHz                     [49.93%]
+       650,885,517      stalled-cycles-frontend   #   11.31% frontend cycles idle    [50.31%]
+     1,390,122,030      stalled-cycles-backend    #   24.16% backend  cycles idle    [50.25%]
+     7,317,356,002      instructions              #    1.27  insns per cycle        
+                                                  #    0.19  stalled cycles per insn [50.36%]
+     1,435,021,287      branches                  #  499.962 M/sec                   [50.27%]
+        61,951,517      branch-misses             #    4.32% of all branches         [50.39%]
+
+       2.920275320 seconds time elapsed
+
