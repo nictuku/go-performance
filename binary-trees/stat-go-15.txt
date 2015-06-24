@@ -1,17 +1,17 @@
 
- Performance counter stats for './binary-trees 15':
+ Performance counter stats for './binarytrees 15':
 
-       2870.258825      task-clock (msec)         #    0.983 CPUs utilized          
-             3,204      context-switches          #    0.001 M/sec                  
+       1689.410758      task-clock (msec)         #    0.952 CPUs utilized          
+             2,192      context-switches          #    0.001 M/sec                  
                  0      cpu-migrations            #    0.000 K/sec                  
-            11,798      page-faults               #    0.004 M/sec                  
-     5,753,582,355      cycles                    #    2.005 GHz                     [49.93%]
-       650,885,517      stalled-cycles-frontend   #   11.31% frontend cycles idle    [50.31%]
-     1,390,122,030      stalled-cycles-backend    #   24.16% backend  cycles idle    [50.25%]
-     7,317,356,002      instructions              #    1.27  insns per cycle        
-                                                  #    0.19  stalled cycles per insn [50.36%]
-     1,435,021,287      branches                  #  499.962 M/sec                   [50.27%]
-        61,951,517      branch-misses             #    4.32% of all branches         [50.39%]
+             4,840      page-faults               #    0.003 M/sec                  
+     2,039,773,193      cycles                    #    1.207 GHz                     [49.77%]
+       157,277,179      stalled-cycles-frontend   #    7.71% frontend cycles idle    [51.69%]
+       614,733,120      stalled-cycles-backend    #   30.14% backend  cycles idle    [52.30%]
+     2,800,018,339      instructions              #    1.37  insns per cycle        
+                                                  #    0.22  stalled cycles per insn [51.03%]
+       527,225,620      branches                  #  312.077 M/sec                   [49.08%]
+        12,473,164      branch-misses             #    2.37% of all branches         [48.58%]
 
-       2.920275320 seconds time elapsed
+       1.774664606 seconds time elapsed
 
